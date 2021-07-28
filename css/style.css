@@ -1,0 +1,21 @@
+.grayscale-fast  {
+filter: grayscale(1);
+
+}
+.grayscale-last  {
+    filter: grayscale(1);
+}
+/* Accordian Part  */
+.accordion-item{
+
+border: 1px solid #D5E5FB;
+
+}
+.accordion-item button{
+    color: #383838;
+    font-size: 20px;
+}
+.accordion-item p{
+    color: #7E848C;
+}
+
