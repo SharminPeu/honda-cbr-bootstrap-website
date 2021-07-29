@@ -1,3 +1,36 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* common styles  */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header Part  */
+.header-section{
+    background-color: #264653;
+}
+.header-section small{
+    font-weight: 300px;
+    font-size: 14px;
+}
+#header-title{
+    font-weight:600px;
+    font-size: 48px;
+    line-height: 72px;
+}
+.header-info{
+    color: #E0E0E0;
+
+    font-weight: 300px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.button-text{
+    background-color: #E76F51;
+    width: 168px;
+    height: 44px;
+}
+/* Feature Section  */
 .grayscale-fast  {
 filter: grayscale(1);
 
@@ -5,7 +38,51 @@ filter: grayscale(1);
 .grayscale-last  {
     filter: grayscale(1);
 }
+.fetured-text{
+    
+    color: #E76F51;
+    font-weight: 600px;
+    font-size: 14px;
+    
+}
+/* client Section  */
+ #client-title-f{
+    color: #0A0826;
+    font-weight: 600px;
+    font-size: 48px;
+
+
+}
+ #client-title-l{
+    color: #E76F51;
+    font-weight: 600px;
+    font-size: 48px;
+
+}
+.client-details{
+    color: #6C6C6C;
+}
+.fa-star{
+     color: #E76F51;
+     
+}
+.client-type{
+    color:#252B42;
+    font-weight: 600px;
+    font-size: 14px;
+}
 /* Accordian Part  */
+#accordian-title-f{
+    color: #0D0925;
+    font-weight: 600px;
+    font-size: 48px;
+}
+#accordian-title-l{
+    color: #E76F51;
+
+    font-weight: 600px;
+    font-size: 48px;
+}
 .accordion-item{
 
 border: 1px solid #D5E5FB;
@@ -26,3 +103,8 @@ border: 1px solid #D5E5FB;
 .background-bg-info button{
     background-color: crimson;
 }
+/* Different Categories Section */
+.categories-info{
+    background-color: coral;
+}
+
