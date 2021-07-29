@@ -19,3 +19,10 @@ border: 1px solid #D5E5FB;
     color: #7E848C;
 }
 
+/* upcoming model section  */
+.background-bg-info{
+    background-color: rgba(250, 218, 207, 0.774);
+}
+.background-bg-info button{
+    background-color: crimson;
+}
